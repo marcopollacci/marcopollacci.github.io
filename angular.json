@@ -26,7 +26,8 @@
               "src/favicon.ico",
               "src/assets",
               "src/bootstrap-italia",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/.htaccess"
             ],
             "styles": [
               "node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css",
