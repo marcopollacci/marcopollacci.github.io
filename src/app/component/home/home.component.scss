@@ -1,0 +1,59 @@
+h1.title {
+    font-weight: normal;
+}
+
+div.content {
+    .slimbold{
+        font-weight: 600;
+    }
+    .social-icons{
+        li {
+            display: inline;
+        }
+        a {
+            display: inline-block;
+            margin-right: 10px;
+            text-indent: -9999px;
+        }
+        .linkedin {
+            background-image: url('/assets/img/linkedin-shiny-icon-logo-5.png');
+            width: 20px;
+            height: 20px;
+        }
+        .github{
+            background-image: url('/assets/img/github.png');
+            width: 20px;
+            height: 20px;
+        }
+        .twitter {
+            background-image: url('/assets/img/twitter3.png');
+            width: 20px;
+            height: 20px;
+        }
+        .facebook {
+            background-image: url('/assets/img/facebook.png');
+            width: 10px;
+            height: 19px;
+        }
+        .googleplus {
+            background-image: url('/assets/img/googleplus.png');
+            width: 21px;
+            height: 19px;
+        }
+        .dribbble {
+            background-image: url('/assets/img/dribbble.png');
+            width: 21px;
+            height: 19px;
+        }
+        .instagram {
+            background-image: url('/assets/img/insta.png');
+            width: 20px;
+            height: 20px;
+        }
+        .flickr {
+            background-image: url('/assets/img/flickr-logo.png');
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
