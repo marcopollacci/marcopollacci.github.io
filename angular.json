@@ -27,7 +27,8 @@
               "src/assets",
               "src/bootstrap-italia",
               "src/manifest.json",
-              "src/.htaccess"
+              "src/CNAME",
+              "src/404.html"
             ],
             "styles": [
               "node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css",
