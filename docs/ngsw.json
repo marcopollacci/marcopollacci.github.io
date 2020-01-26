@@ -1,16 +1,17 @@
 {
   "configVersion": 1,
-  "timestamp": 1580070406971,
+  "timestamp": 1580070958107,
   "index": "/index.html",
   "assetGroups": [
     {
-      "name": "app",
+      "name": "marcopollacci",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
         "/main-es2015.251d517e8622a18406d6.js",
         "/main-es5.251d517e8622a18406d6.js",
+        "/manifest.json",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "/polyfills-es5.df1101cc1e7b588877f8.js",
@@ -131,6 +132,7 @@
     "/index.html": "848913aa2290a8eda4e7abd1d769089d8dfeeac2",
     "/main-es2015.251d517e8622a18406d6.js": "866eefb56948d09108b6a4ba18a9e1d3d8fe77ae",
     "/main-es5.251d517e8622a18406d6.js": "1b35101811b9e94d87939092a0bde505e8b6dd51",
+    "/manifest.json": "3c4b05db0bdb14a5d94d95d8805aee2dcd76f3f7",
     "/manifest.webmanifest": "610a6e03ced24b26bcc2c8336fa28544776c885e",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.df1101cc1e7b588877f8.js": "be7220c312d2c09c05c0e8aad50c5ec13d0c4c1f",

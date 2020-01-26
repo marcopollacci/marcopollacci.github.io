@@ -3,13 +3,14 @@
   "index": "/index.html",
   "assetGroups": [
     {
-      "name": "app",
+      "name": "marcopollacci",
       "installMode": "prefetch",
       "resources": {
         "files": [
           "/favicon.ico",
           "/index.html",
           "/manifest.webmanifest",
+          "/manifest.json",
           "/*.css",
           "/*.js"
         ]
