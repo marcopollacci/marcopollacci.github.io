@@ -28,7 +28,8 @@
               "src/bootstrap-italia",
               "src/manifest.json",
               "src/CNAME",
-              "src/404.html"
+              "src/404.html",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "node_modules/bootstrap-italia/dist/css/bootstrap-italia.min.css",
@@ -62,7 +63,9 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
@@ -96,7 +99,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ]
           }
         },
