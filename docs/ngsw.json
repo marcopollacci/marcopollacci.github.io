@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1580070958107,
+  "timestamp": 1580071318673,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -9,8 +9,8 @@
       "updateMode": "prefetch",
       "urls": [
         "/index.html",
-        "/main-es2015.251d517e8622a18406d6.js",
-        "/main-es5.251d517e8622a18406d6.js",
+        "/main-es2015.898db5073660ded29075.js",
+        "/main-es5.898db5073660ded29075.js",
         "/manifest.json",
         "/manifest.webmanifest",
         "/polyfills-es2015.2987770fde9daa1d8a2e.js",
@@ -24,7 +24,7 @@
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
         "/assets/favicon/android-icon-144x144.png",
@@ -129,10 +129,10 @@
     "/assets/img/twitter.png": "a131df395afe428639cc7be55b8e89c711ceae6d",
     "/assets/img/twitter3.png": "ece1aabe5eccf2311e70bcb1134d725b333a27d0",
     "/assets/me.jpeg": "e63ea6898f633c9d808f47c0089c876e57316f7f",
-    "/index.html": "848913aa2290a8eda4e7abd1d769089d8dfeeac2",
-    "/main-es2015.251d517e8622a18406d6.js": "866eefb56948d09108b6a4ba18a9e1d3d8fe77ae",
-    "/main-es5.251d517e8622a18406d6.js": "1b35101811b9e94d87939092a0bde505e8b6dd51",
-    "/manifest.json": "3c4b05db0bdb14a5d94d95d8805aee2dcd76f3f7",
+    "/index.html": "0d0b00fadb945df42ceebd609be8668d640cfa54",
+    "/main-es2015.898db5073660ded29075.js": "6387632a12ecb3e26df055bd378d94ed6d3f761c",
+    "/main-es5.898db5073660ded29075.js": "a90583e7f7029adb983d9b6b68ce706eb7fb57b3",
+    "/manifest.json": "0b942e00ed9a3b1460d9d0938e0ad9b94e818ec9",
     "/manifest.webmanifest": "610a6e03ced24b26bcc2c8336fa28544776c885e",
     "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "/polyfills-es5.df1101cc1e7b588877f8.js": "be7220c312d2c09c05c0e8aad50c5ec13d0c4c1f",
