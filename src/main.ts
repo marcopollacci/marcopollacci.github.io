@@ -17,7 +17,7 @@ platformBrowserDynamic().bootstrapModule(AppModule).then(() => {
 
 function registerServiceWorker() {
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
+    window.addEventListener('load', () => {
     navigator.serviceWorker
       .register('./service-worker.js')
       .then(reg => {
