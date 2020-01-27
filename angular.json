@@ -26,7 +26,6 @@
               "src/favicon.ico",
               "src/assets",
               "src/bootstrap-italia",
-              "src/manifest.json",
               "src/CNAME",
               "src/404.html",
               "src/manifest.webmanifest"
@@ -56,16 +55,7 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true,
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "2mb",
-                  "maximumError": "5mb"
-                }
-              ],
-              "serviceWorker": true,
-              "ngswConfigPath": "ngsw-config.json"
+              "buildOptimizer": true
             }
           }
         },
