@@ -1,6 +1,7 @@
 # www.marcopollacci.it
 
-[![Build Status](https://travis-ci.org/marcopollacci/www.marcopollacci.it.svg?branch=master)](https://travis-ci.org/marcopollacci/www.marcopollacci.it)
+[![Build Status](https://travis-ci.org/marcopollacci/www.marcopollacci.it.svg?branch=master)](https://travis-ci.org/marcopollacci/www.marcopollacci.it) [![Total alerts](https://img.shields.io/lgtm/alerts/g/marcopollacci/www.marcopollacci.it.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/marcopollacci/www.marcopollacci.it/alerts/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/marcopollacci/www.marcopollacci.it.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/marcopollacci/www.marcopollacci.it/alerts/)
 
 Code for my personal website
 
