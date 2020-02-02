@@ -26,6 +26,14 @@ function registerServiceWorker() {
           console.log('controller is not ready. reloading');
           location.reload();
         }
+        reg.addEventListener('updatefound', () => {
+          const newWorker = reg.installing;
+          if (newWorker.state === 'installing') {
+            location.reload();
+          }
+          newWorker.addEventListener('statechange', () => {
+          });
+        });
       })
       .catch(err =>
         console.error('[App] Service worker registration failed', err)
