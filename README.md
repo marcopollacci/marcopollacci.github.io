@@ -11,4 +11,4 @@ Code for my personal website
 
 https://hub.docker.com/r/marcopollacci/www.marcopollacci.it
 
-> docker pull marcopollacci/wwww.marcopollacci.it
+> docker pull marcopollacci/www.marcopollacci.it
