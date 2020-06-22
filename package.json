@@ -8,6 +8,8 @@
     "build": "ng build",
     "build-prod": "ng build --prod && workbox generateSW workbox-config.js",
     "workbox": "workbox generateSW workbox-config.js",
+    "compodoc": "compodoc -p tsconfig.json",
+    "compodoc-serve": "compodoc -s tsconfig.json -r 8180",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -32,10 +34,11 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.901.4",
+    "@angular-devkit/build-angular": "^0.901.9",
     "@angular/cli": "^9.1.4",
     "@angular/compiler-cli": "^9.1.4",
     "@angular/language-service": "^9.1.4",
+    "@compodoc/compodoc": "^1.1.11",
     "@types/jasmine": "~2.8.8",
     "@types/jasminewd2": "^2.0.8",
     "@types/node": "^12.11.1",
