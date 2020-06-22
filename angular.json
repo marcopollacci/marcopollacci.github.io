@@ -144,5 +144,8 @@
       }
     }
   },
-  "defaultProject": "marcopollacci-github"
+  "defaultProject": "marcopollacci-github",
+  "cli": {
+    "analytics": false
+  }
 }
