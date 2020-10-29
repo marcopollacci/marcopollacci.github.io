@@ -28,6 +28,10 @@ self.__precacheManifest = [
     "revision": "98d5256e238606063773f3bd730e37cc"
   },
   {
+    "url": "assets/cv_marco_pollacci.pdf",
+    "revision": "7a3ff4f81753c34e28c5eeb1c5540c8b"
+  },
+  {
     "url": "assets/favicon/android-icon-144x144.png",
     "revision": "4706c2d15685b90e613b8911a35dc37d"
   },
@@ -321,34 +325,34 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "de4e5790d2e0a173fae0a447f33382fd"
+    "revision": "35953d0ea968cb08c6f3661413c0d75b"
   },
   {
-    "url": "main-es2015.06e1d9ce6bd7e5bae39c.js",
-    "revision": "39d5aaf5eb193bb6772d5cc15d05e8fa"
+    "url": "main-es2015.e17659f48c20d6e71cd3.js",
+    "revision": "4e5d080085c7d32e7fb69d41253a23fb"
   },
   {
-    "url": "main-es5.06e1d9ce6bd7e5bae39c.js",
-    "revision": "8fdf90e2f6396c1d9e58ad81339d449c"
+    "url": "main-es5.e17659f48c20d6e71cd3.js",
+    "revision": "f95d54ad587f1d306f8467aab5828fb4"
   },
   {
     "url": "manifest.webmanifest",
     "revision": "69b4d3678c00bf62e75501a191a09580"
   },
   {
-    "url": "polyfills-es2015.a0fa45e0fa52702b64f0.js",
-    "revision": "c13545a4366187eaeb662de603fb44f9"
+    "url": "polyfills-es2015.4eb191482be2254421ff.js",
+    "revision": "db6b7a89cffd08ff887132aa538f47e9"
   },
   {
-    "url": "polyfills-es5.c6ea59afb9444f35d58e.js",
-    "revision": "d75a0f3b3778919ffd54967c86d42d89"
+    "url": "polyfills-es5.75b0707021fcb8d46698.js",
+    "revision": "cacf95e0c7516da459a4f2f3378ecae5"
   },
   {
-    "url": "runtime-es2015.409e6590615fb48d139f.js",
+    "url": "runtime-es2015.66c79b9d36e7169e27b0.js",
     "revision": "1244d3f2f28ecc6619157927aca95200"
   },
   {
-    "url": "runtime-es5.409e6590615fb48d139f.js",
+    "url": "runtime-es5.66c79b9d36e7169e27b0.js",
     "revision": "1244d3f2f28ecc6619157927aca95200"
   },
   {
