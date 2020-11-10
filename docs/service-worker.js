@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/cv_marco_pollacci.pdf",
-    "revision": "7a3ff4f81753c34e28c5eeb1c5540c8b"
+    "revision": "685c69a0a139fdb0440b14857a1c920d"
   },
   {
     "url": "assets/favicon/android-icon-144x144.png",
@@ -325,15 +325,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "ab175052f33a88e4652803be82296b46"
+    "revision": "2925a39b0bbee4b8eedbe0a613e34c77"
   },
   {
-    "url": "main-es2015.048601b40b277777b470.js",
-    "revision": "c1bb34164905888919bcfd16a96171c7"
+    "url": "main-es2015.0bd19349a2fc0c8011ec.js",
+    "revision": "a97b8d1c10772acd53b4a29355caaacf"
   },
   {
-    "url": "main-es5.048601b40b277777b470.js",
-    "revision": "0cc0ea61911d4f44c0c180f33c71c978"
+    "url": "main-es5.0bd19349a2fc0c8011ec.js",
+    "revision": "e802552f09a4db04a6b50922930f7c4f"
   },
   {
     "url": "manifest.webmanifest",
