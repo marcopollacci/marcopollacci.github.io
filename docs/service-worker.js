@@ -29,7 +29,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/cv_marco_pollacci.pdf",
-    "revision": "685c69a0a139fdb0440b14857a1c920d"
+    "revision": "aa4bee2317df9efc498b890a748c0172"
   },
   {
     "url": "assets/favicon/android-icon-144x144.png",
