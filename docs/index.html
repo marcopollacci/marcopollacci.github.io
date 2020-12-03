@@ -36,7 +36,7 @@
         // Remove the URL from sessionStorage.
         delete sessionStorage.redirect;
         // Check if we actually need to redirect.
-        if (redirect && redirect != location.href) {
+        if (redirect && redirect !== location.href) {
           // We need to redirect to the URL the user was trying to access.
           history.replaceState(null, null, redirect);
         }
@@ -44,21 +44,15 @@
     </script>
   <!-- /Github Pages hack. -->
   <app-root></app-root>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-21222420-1"></script>
   <script>
-      (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-21222420-1', 'auto');// add your tracking ID here.
-    ga('send', 'pageview');
-    </script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-21222420-1');
+  </script>
+
   <noscript>Please enable JavaScript to continue using this application.</noscript>
 <script src="runtime-es2015.681bd8a4edb177c86959.js" type="module"></script><script src="runtime-es5.681bd8a4edb177c86959.js" nomodule defer></script><script src="polyfills-es5.b7b0711894f2f97cb231.js" nomodule defer></script><script src="polyfills-es2015.ba78947c8b103ff9cbd4.js" type="module"></script><script src="scripts.c9cb34a0fad5421b8c37.js" defer></script><script src="main-es2015.95d400a910e1f5615316.js" type="module"></script><script src="main-es5.95d400a910e1f5615316.js" nomodule defer></script></body>
 </html>
