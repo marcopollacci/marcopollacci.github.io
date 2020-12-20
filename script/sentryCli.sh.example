@@ -1,0 +1,19 @@
+#!/bin/sh
+release=$(grep -oP "(?<=release: ')[0-9]+.[0-9-]+.[0-9-](?=')" src/environments/environment.prod.ts)
+
+echo $release;
+
+# new release on Sentry.io
+export SENTRY_URL=https://sentry.io/
+export SENTRY_AUTH_TOKEN=<TOKEN>
+export SENTRY_ORG=<ORGANIZATION>
+export SENTRY_PROJECT=<PROJECT>
+
+sentry-cli releases new -p <PROJECT> $release &&
+
+sentry-cli releases files $release upload-sourcemaps docs/ -x .js -x .map --validate --verbose --rewrite --strip-common-prefix &&
+
+sentry-cli releases finalize $release &&
+
+# cleanUp
+rm -rf docs/*.map
