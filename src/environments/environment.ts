@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  sentry: {
+    dsn: 'https://027a916da1d045e18f1179f90172b849@o266596.ingest.sentry.io/5565007',
+    release: '0.0.1',
+    environment: 'dev'
+  }
 };
 
 /*

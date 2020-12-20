@@ -1,12 +1,14 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import * as Sentry from '@sentry/angular';
 
 if (environment.production) {
   enableProdMode();
 }
+
+Sentry.init(environment.sentry);
 
 platformBrowserDynamic().bootstrapModule(AppModule).then(() => {
   if (environment.production) {
