@@ -9,6 +9,9 @@ export SENTRY_AUTH_TOKEN=<TOKEN>
 export SENTRY_ORG=<ORGANIZATION>
 export SENTRY_PROJECT=<PROJECT>
 
+#cleanUp if exsist old release
+sentry-cli releases files $release delete --all &&
+
 sentry-cli releases new -p <PROJECT> $release &&
 
 sentry-cli releases files $release upload-sourcemaps docs/ -x .js -x .map --validate --verbose --rewrite --strip-common-prefix &&
