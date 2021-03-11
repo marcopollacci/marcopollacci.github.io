@@ -6,6 +6,6 @@ module.exports = {
     ],
     "swDest": "docs/service-worker.js",
     skipWaiting: true,
-    clientsClaim: true,
+    clientsClaim: false,
     navigateFallback: "/index.html"
   };
