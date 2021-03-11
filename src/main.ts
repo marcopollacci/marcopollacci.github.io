@@ -24,10 +24,6 @@ function registerServiceWorker() {
       .register('./service-worker.js')
       .then(reg => {
         console.log('[App] Successful service worker registration', reg);
-        if (!navigator.serviceWorker.controller) {
-          console.log('controller is not ready. reloading');
-          location.reload();
-        }
         reg.addEventListener('updatefound', () => {
           const newWorker = reg.installing;
           if (newWorker.state === 'installing') {
